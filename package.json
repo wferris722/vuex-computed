@@ -1,0 +1,23 @@
+{
+  "name": "vuex-computed",
+  "version": "1.0.0",
+  "description": "function that makes vuex computed properties easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wferris722/vuex-computed.git"
+  },
+  "keywords": [
+    "vuex",
+    "computed"
+  ],
+  "author": "Warren Ferris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wferris722/vuex-computed/issues"
+  },
+  "homepage": "https://github.com/wferris722/vuex-computed#readme"
+}
