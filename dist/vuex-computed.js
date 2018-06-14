@@ -360,4 +360,4 @@ process.umask = function() { return 0; };
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=vuex-computed.min.js.map
+//# sourceMappingURL=vuex-computed.js.map

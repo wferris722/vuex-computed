@@ -14,14 +14,14 @@ if(env === 'build') {
   plugins.push(new UglifyJsPlugin({ minimize: true}));
   outputFile = libraryName + '.min.js'
 } else {
-  outputFile = libraryName + '.min.js'
+  outputFile = libraryName + '.js'
 }
 
 var config = {
   entry: __dirname + '/src/index.js',
   devtool: 'source-map',
   output: {
-    path: __dirname + '/lib',
+    path: __dirname + '/dist',
     filename: outputFile,
     library: libraryName,
     libraryTarget: 'umd',

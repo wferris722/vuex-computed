@@ -1,11 +1,11 @@
 {
   "name": "vuex-computed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "function that makes vuex computed properties easier",
-  "main": "index.js",
+  "main": "dist/vuex-computed.min.js",
   "scripts": {
-    "build": "cross-env webpack --env dev --progress --colors && webpack --env build --progress --colors",
-    "dev": "cross-env webpack --env dev --progress --colors"
+    "build": "cross-env WEBPACK_ENV=build webpack --progress --colors",
+    "dev": "cross-env WEBPACK_ENV=dev webpack --progress --colors"
   },
   "repository": {
     "type": "git",
