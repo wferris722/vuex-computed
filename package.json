@@ -1,10 +1,11 @@
 {
   "name": "vuex-computed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "function that makes vuex computed properties easier",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env webpack --env dev --progress --colors && webpack --env build --progress --colors",
+    "dev": "cross-env webpack --env dev --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/wferris722/vuex-computed/issues"
   },
-  "homepage": "https://github.com/wferris722/vuex-computed#readme"
+  "homepage": "https://github.com/wferris722/vuex-computed#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.10.0",
+    "yargs": "^10.0.3",
+    "cross-env": "^5.2.0"
+  }
 }
